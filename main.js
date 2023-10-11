@@ -1,5 +1,5 @@
-Function tocaSomRisada(){
-    document.querySelector(".#tecla_risada")play ();
+function tocaSomPom () {
+    document.querySelector('#som_tecla_pom').play();
 }
 
-document.querySelector(".tecla_risada")onclick = tocaSomRisada;
+document.querySelector('.tecla_pom').onclick = tocaSomPom;
