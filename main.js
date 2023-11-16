@@ -1,4 +1,4 @@
-efunction tocaSom(idElementoAudio){
+function tocaSom(idElementoAudio){
     document.querySelector(idElementoAudio).play();
 }
 
