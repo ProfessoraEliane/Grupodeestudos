@@ -1,4 +1,4 @@
-function tocaSom(idElementoAudio){
+efunction tocaSom(idElementoAudio){
     document.querySelector(idElementoAudio).play();
 }
 
@@ -12,7 +12,8 @@ for(let contador < listaDeTeclas.length; contador++){
     tecla.onclick = function(){
         tocaSom(idAudio);
     }
-   tecla.onkeydown = function(){
+   tecla.onkeydown = function(evento){
+       if(evento.code !='tab')
         tecla.classList.add('ativa');
     }
     tecla.onkeyup = function(){
